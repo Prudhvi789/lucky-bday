@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  padding:10px;
+  background-color: beige;
+  padding:4rem;
+}
+
+.mainBox{
+  display: grid;
+  grid-template-columns: 45% auto;
+  margin-bottom: 4rem;
+}
+
+.poster{
+  background: url(https://www.sgvtribune.com/wp-content/uploads/2021/05/GettyImages-1253501415.jpg?w=1024);
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position-y: bottom;
+}
+
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 30px 0 0 0;
+  margin: 0 3rem;
+  box-shadow: 0px 1px 7px 5px #d9d9d9;
+}
+
+.inputBox > input{
+  margin: 15px;
+  width: 40%;
+  padding: 4px;
+}
+
+button{
+  margin: 15px;
+    padding: 7px;
+    background: linear-gradient(to right, #0932fe,#00dcffc2);
+}
+
+.result{
+  font-size:x-large;
+  background-color: rgba(0,0,0, 60%);
+  margin: 25% 30px 0 30px;
+  color: white;
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 25rem;
+  color:black;
+}
+
